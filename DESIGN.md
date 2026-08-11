@@ -74,3 +74,32 @@ clever/whimsical/elegant ways. Delivered as /explorations §C:
 Site copy round 2: blurb per Chris's edits ("artists and scientists…the laboratory,
 the studio, and the market"); index gains 03 "Layer_ :" (purpose TBD); WHO/WHAT
 hints removed.
+
+---
+
+## Round 4 — The synapse in the picture (2026-08-11, raised reasoning)
+
+**Client insight, canonized:** the flask is neuron-like — bulb for a soma, spout
+for a process. Therefore: drop = vesicle; what the studio releases = transmission.
+
+**Brief:** R3.1 as-is + a more "primitive" visual layer behind it, evoking
+pyramidal neurons, with a basal (or tuft) dendrite interacting with the drop.
+Also: R3.4 is loved ("inspired") — wants shirts.
+
+**Delivered (/explorations §D–E):**
+- R4.1 Palimpsest (Tuft) — the billboard pasted over an older plate; faint
+  pyramidal pictographs show through; one escaped cell's apical tuft cups the
+  falling drop from the margin. Rule established: **the dendrite never touches
+  the drop — the gap (synaptic cleft) is the point.**
+- R4.2 Palimpsest (Basal) — oblique cell, long basal arc does the catch.
+- R4.3 The Cleft — extreme crop; the transfer moment is the whole billboard;
+  processes break *in* from outside (inversion of R3.1's drop breaking out).
+- R4.4 The Pour, refined — tilted meniscus, ballistic letterfall, two leading
+  beads, vermilion Y enlarged as the yield.
+- R4.5 Shirt colorways — one ink + vermilion silkscreen; paper-on-black (the
+  shirt) and ink-on-natural; pocket/back split noted. Rule: the Y is always
+  vermilion.
+
+Craft notes: first drafts of R4.2 (tangled soma) and R4.3 (fork read as a stick
+figure) were redrawn — filled soma with cleaned single arcs; fork removed,
+asymmetric processes.
