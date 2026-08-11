@@ -51,3 +51,26 @@ into the triad. Add an 03 "Layer_ :" node. Drop the WHO/WHAT hint text.
 
 **Archive:** branch `archive/v2-squared-circle` (this exact site + this file).
 Prior version: `archive/v1-cajal-editorial`.
+
+---
+
+## Round 2 — Resolutions & syntheses (2026-08-11)
+
+**Triangle question resolved.** After seeing the orientation studies, Chris moved
+past the AA read: "on brand for alchemy anyway." **Fire (R2.1) stands as the mark.**
+
+**Syntheses commissioned:** cross R2.7 (Retort) × R2.8 (Rosenquist fragment) in
+clever/whimsical/elegant ways. Delivered as /explorations §C:
+- R3.1 Billboard Distillate — bulb at billboard scale; the spout breaks the frame;
+  only the drop escapes the picture. (The studio thesis: the work leaves the frame.)
+- R3.2 Halftone Alembic — ben-day dots in solution, one vermilion drop out;
+  distillation as many-daily-works → one long question.
+- R3.3 The Seam — the vessel torn along a billboard seam and re-pasted misregistered;
+  transformation as recombination (Rauschenberg).
+- R3.4 The Pour — the retort pours its own name; only the final letter comes out
+  transmuted (vermilion). Ruscha deadpan; strongest as poster language, and it
+  double-reads as a magnifying glass (inspection) — noted, not fought.
+
+Site copy round 2: blurb per Chris's edits ("artists and scientists…the laboratory,
+the studio, and the market"); index gains 03 "Layer_ :" (purpose TBD); WHO/WHAT
+hints removed.
