@@ -103,3 +103,60 @@ Also: R3.4 is loved ("inspired") — wants shirts.
 Craft notes: first drafts of R4.2 (tangled soma) and R4.3 (fork read as a stick
 figure) were redrawn — filled soma with cleaned single arcs; fork removed,
 asymmetric processes.
+
+---
+
+## Rounds 4.1 & 4.2 — the redo (2026-08-11, parallel-design method)
+
+**Client critique:** stick pyramidals banned ("not a thing we should do"); R4.1/R4.2
+"too literal … no reward for that complexity"; "twists are pretty lame. Try way
+harder." Compute explicitly authorized.
+
+**Method:** six design lenses in parallel (schematic / constructivist / blueprint
+for 4.1; separation / Bauhaus-soup / strata for 4.2), two judges scoring against
+the critique verbatim, then merges executed to the judges' written prescriptions
+with numeric geometry verification, then render-checked.
+
+**Delivered:**
+- **R4.1.1 — AS-BUILT**: R3.1 pasted over a 32-unit graph-paper wiring plan whose
+  socket n9 was pre-ruled at (288,192) — the drop's own coordinates factor as
+  (9×32, 6×32), a *found* harmony. Bell Labs grammar (buses, crossing hops,
+  junction dots, ground rail, cobalt drafting lettering); primitives as component
+  types; one live vermilion path draining from under the paste; cleft 11 units.
+- **R4.2.1 — SEPARATION PROOF** (dark colorway): three color plates (cobalt,
+  ochre, vermilion; precomputed flat overprints — plum #7d4663, burnt #d07230)
+  contained by one paper key plate; ben-day punch; misregistered meniscus echo;
+  mono note "3 PLATES IN · 1 PLATE OUT"; one vermilion bead declines to distill.
+  Embodies Chris's forebrain hypothesis: the vessel contains the hallucination;
+  the key plate is the control; one drop of the dream survives.
+
+---
+
+## Round 5 — The five-needle round (2026-08-11)
+
+**Source:** client-supplied engraving, FIG. 355 — Wheatstone's five-needle
+telegraph. History verified before drawing (key facts: patented 1837; first
+commercial line GWR Paddington–West Drayton 1838/39; letters selected at the
+crossing of two thrown needles, no code to learn; 20-letter board omitted
+C J Q U X Z; the 1 Jan 1845 Tawell message spelled KWAKER — and arrived on the
+line's later two-needle instrument, which omitted J, Q, Z — the reader supplied
+the Q; Wheatstone's 1863 speaking-machine demo set A.G. Bell on the path to the
+telephone → Bell Labs).
+
+**Delivered (/explorations §G):**
+- **R5.1 — THE INSTRUMENT (FIFTH STATE)** — candidate evolution of the mark:
+  square rises to inscribe in the circle at 45° (corners on the tick axes) as the
+  letter board; the triangle becomes the needles; the soma becomes the pivot hub;
+  pivots 2+3 throw downward and cross at **N**. The geometry proves the 20-letter
+  board (C(5,2)×2). Judge verdict: the only candidate that evolves the mark by
+  re-reading its construction. **Awaiting client verdict on fifth-state adoption.**
+- **R5.2 — THE SELECTION** — didactic proof-plate; selection by convergence =
+  the basal-ganglia parallel, exaggerations honestly footnoted.
+- **R5.3 — KWAKER** — sent word above the line, received word below with the
+  ghost Q; the six omitted letters as voids; split dating kept honest. Flagship
+  shirt candidate alongside The Pour.
+- **R5.4 — TWO STATIONS** — two marks, one line L, the signal mid-wire touching
+  nothing; caption declines to claim the needle count for the 1837 demo (sources
+  conflict).
+
+House canon extended: **the gap has been the point since 1837.**

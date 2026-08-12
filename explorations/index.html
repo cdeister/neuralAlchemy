@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Mark Explorations · Rounds 2–4 — Neural Alchemy</title>
+<title>Mark Explorations · Rounds 2–5 — Neural Alchemy</title>
 <meta name="robots" content="noindex">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,7 +54,7 @@
 
 <main class="wrap">
   <div class="page-title">
-    <p class="kicker">Internal <b>· Mark Explorations · Rounds 2–4</b></p>
+    <p class="kicker">Internal <b>· Mark Explorations · Rounds 2–5</b></p>
     <h1>Orientation studies, runners-up, syntheses</h1>
     <p class="sub">Working document — unlisted. For critique, not publication.</p>
   </div>
@@ -515,6 +515,434 @@
       Left: paper-on-black — the shirt. Right: ink-on-natural. Chest-height full front, or
       vessel alone as a pocket print with the full pour on the back. The Y stays vermilion in
       every colorway; that's the rule.</figcaption>
+    </figure>
+  </div>
+
+  <h2 class="kicker">F <b>· Rounds 4.1 &amp; 4.2 — the redo, delivered</b></h2>
+  <p class="sec-note">Method upgrade, per the client's "try way harder": six design lenses ran in
+  parallel, two judges scored every candidate against the critique verbatim — "no reward for
+  complexity," "randomly harmonized" — and the winning devices were merged to the judges'
+  written prescriptions, geometry verified numerically, then render-checked. R4.1.1 supersedes
+  the pictograph panels. The network is now something only this studio would draw.</p>
+
+  <div class="figgrid">
+    <figure class="fig">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Mono, Menlo, monospace">
+  <defs>
+    <!-- R3.1's screen at its native phase: cx6.5 cy6.5, 13px pitch, r2.4, .5 -->
+    <pattern id="bd411" width="13" height="13" patternUnits="userSpaceOnUse">
+      <circle cx="6.5" cy="6.5" r="2.4" fill="#16130e" opacity="0.5"/>
+    </pattern>
+    <clipPath id="fr411"><rect x="30" y="40" width="240" height="190"/></clipPath>
+  </defs>
+
+  <rect width="300" height="300" fill="#f6f3ec"/>
+
+  <!-- GROUND · 32-unit graph paper; it catches the drop at (9x32, 6x32) -->
+  <path d="M32 0V300M64 0V300M96 0V300M128 0V300M160 0V300M192 0V300M224 0V300M256 0V300M288 0V300M0 32H300M0 64H300M0 96H300M0 128H300M0 160H300M0 192H300M0 224H300M0 256H300M0 288H300" stroke="#d9d2c2" stroke-width="1" fill="none"/>
+
+  <!-- BASE WIRING (ink), drawn before the paste so the sheet occludes it -->
+  <g stroke="#16130e" stroke-width="1.75" fill="none">
+    <!-- E1: launch-tangent edge, slope 11/25 through (190,68); 96.8 units visible before it dives at (124.09,39) -->
+    <path d="M35.455 0 L190 68"/>
+    <!-- input pigtails -->
+    <path d="M60 6H68M124 6H132M188 6H196M252 6H260"/>
+    <!-- buses; n1 and n2 enter and never leave the sheet -->
+    <path d="M64 6V29M64 35V230"/>
+    <path d="M128 6V26.5M128 35.5V230"/>
+    <!-- through-buses: each hops OVER the live vermilion row at y=253.5 -->
+    <path d="M192 6V28M192 36V249A4.5 4.5 0 0 1 192 258V288"/>
+    <path d="M256 6V249A4.5 4.5 0 0 1 256 258V288"/>
+    <!-- branch to the output column; terminal tick at y=166 receives the spout tip -->
+    <path d="M256 32L288 64V166"/>
+    <path d="M284.5 166H291.5"/>
+    <!-- buried rows behind the print (fat ticks mark them at the left edge) -->
+    <path d="M21 64H288"/>
+    <path d="M21 192H276"/>
+    <!-- phantom trace: emerges from the paste's bottom edge, no entry above -->
+    <path d="M160 238V248"/>
+    <!-- ground rail -->
+    <path d="M38 288H256"/>
+    <path d="M38 288V291"/>
+  </g>
+  <g stroke="#16130e" stroke-width="1.5" fill="none">
+    <path d="M157 248H163"/>
+    <!-- socket n9's receiver: T-stub crossbar at y=210 (cleft 11 below the drop), stem, dendrite-triangle on grid row 224 -->
+    <path d="M285.5 210H290.5M288 210V222"/>
+  </g>
+  <g stroke="#16130e" stroke-width="1.25" fill="none">
+    <path d="M32 291H44M34.5 294H41.5M36.75 297H39.25"/>
+  </g>
+  <!-- fat-tick registration: solder stubs collinear with the buried rows -->
+  <path d="M11 64H21M11 192H21" stroke="#16130e" stroke-width="2.25" fill="none"/>
+
+  <!-- LIVE PATH (delivered vermilion): surfaces from under the paste at x=45.5,
+       inside the bulb chord footprint 30-194, on the print's own 6.5-mod-13 phase -->
+  <g stroke="#c8401a" stroke-width="2.5" fill="none">
+    <path d="M45.5 230V248"/>
+    <path d="M51 253.5H275L288 240.5V228.5"/>
+  </g>
+  <circle cx="45.5" cy="253.5" r="5.5" fill="#c8401a"/>
+
+  <!-- components, outside-in inscription order: circle, triangle, square; receiver triangle solders over the riser -->
+  <g stroke="#16130e" stroke-width="1.5" fill="#f6f3ec">
+    <circle cx="64" cy="32" r="3"/>
+    <polygon points="124,35.5 132,35.5 128,26.5"/>
+    <rect x="188" y="28" width="8" height="8"/>
+    <polygon points="283.5,228.5 292.5,228.5 288,219.5"/>
+  </g>
+  <!-- junction dots -->
+  <g fill="#16130e">
+    <circle cx="256" cy="32" r="2.2"/>
+    <circle cx="288" cy="64" r="2.2"/>
+    <circle cx="192" cy="288" r="2.2"/>
+  </g>
+
+  <!-- drafting lettering (cobalt, one dose, three strings) -->
+  <g fill="#1f3a93">
+    <text x="69.5" y="30.5" font-size="4.5">n1</text>
+    <text x="286" y="180" font-size="4.2" text-anchor="end">n9</text>
+    <text x="292" y="297.5" font-size="5" text-anchor="end" letter-spacing="0.5">R4.1.1 · AS-BUILT</text>
+  </g>
+
+  <!-- PASTE · R3.1 cut sheet, slightly larger than its frame; 1px rule-stroke lift edge -->
+  <rect x="24" y="39" width="256" height="199" fill="#f6f3ec" stroke="#d9d2c2" stroke-width="1"/>
+  <g clip-path="url(#fr411)">
+    <circle cx="105" cy="150" r="120" fill="#c8401a"/>
+    <!-- original R3.1 ben-day band: clipped to the frame only, dots going gray on paper at the corner -->
+    <rect x="30" y="40" width="110" height="190" fill="url(#bd411)"/>
+  </g>
+  <rect x="30" y="40" width="240" height="190" fill="none" stroke="#16130e" stroke-width="2"/>
+
+  <!-- OVERPRINT · the pour leaves the sheet collinear with E1; the drop seats on socket n9, touching nothing -->
+  <path d="M190 68C240 90 264 128 284 168" fill="none" stroke="#16130e" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="288" cy="192" r="7" fill="#c8401a"/>
+</svg>
+      <figcaption><b>R4.1.1 — AS-BUILT</b><br>In Bell System drafting practice, an as-built is the schematic redrawn after installation to record what actually happened. The record here: R3.1 pasted square to a 32-unit graph-paper wiring plan whose output socket n9 was ruled and labeled in advance at (288, 192) — nine columns over, six rows down — so the escaped drop lands on its own terminal, 11 units above a waiting receiver. The print's vermilion drains from under the sheet on the 13-unit phase it was screened at; the dead wiring hops the live line twice and defers. One trace enters the sheet and never leaves; one leaves that never entered.</figcaption>
+    </figure>
+    <figure class="fig">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="liq"><path d="M42.45 84.39 L129.71 97.40 A46 46 0 0 1 42.45 84.39 Z"/></clipPath>
+    <clipPath id="verm"><circle cx="102" cy="108" r="21"/></clipPath>
+    <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse">
+      <circle cx="4.5" cy="4.5" r="2" fill="#16130e" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- near-black card; garment stands in for this at production -->
+  <rect width="300" height="300" fill="#0d0b08"/>
+
+  <!-- registration marks: the key plate's claim to control -->
+  <g stroke="#f6f3ec" stroke-width="0.8" opacity="0.7" fill="none">
+    <g transform="translate(16 16)"><circle r="4"/><path d="M-7 0H7M0 -7V7"/></g>
+    <g transform="translate(284 16)"><circle r="4"/><path d="M-7 0H7M0 -7V7"/></g>
+    <g transform="translate(16 284)"><circle r="4"/><path d="M-7 0H7M0 -7V7"/></g>
+    <g transform="translate(284 284)"><circle r="4"/><path d="M-7 0H7M0 -7V7"/></g>
+  </g>
+
+  <!-- the soup: three color plates, two engineered overlap events, contained -->
+  <g clip-path="url(#liq)">
+    <circle cx="68" cy="106" r="24" fill="#2e4ca8"/>
+    <circle cx="102" cy="108" r="21" fill="#c8401a"/>
+    <path d="M87.84 92.49 A24 24 0 0 1 86.12 121.75 A21 21 0 0 1 87.84 92.49 Z" fill="#7d4663"/>
+    <g clip-path="url(#verm)"><rect x="92" y="90" width="13" height="40" fill="url(#dots)"/></g>
+    <path d="M104 114 L126 101 L120 124 Z" fill="#d9a441"/>
+    <path d="M104 114 L122.42 103.11 A21 21 0 0 1 117.34 122.34 Z" fill="#d07230"/>
+  </g>
+
+  <!-- the one engineered leak: vermilion plate slips 2.5px at the meniscus, trimmed inside the wall -->
+  <line x1="45.42" y1="87.33" x2="125.75" y2="99.31" stroke="#c8401a" stroke-width="1.4"/>
+
+  <!-- vermilion thread: roots on the wall at the spout junction, rides the underside, quits with a hard cap -->
+  <path d="M127.84 55 C150.5 64 164 85.5 172.2 109.3 L175.4 118.8" fill="none" stroke="#c8401a" stroke-width="2"/>
+
+  <!-- key plate: everything paper-colored is one registered plate -->
+  <line x1="42.45" y1="84.39" x2="129.71" y2="97.40" stroke="#f6f3ec" stroke-width="2"/>
+  <circle cx="88" cy="78" r="46" fill="none" stroke="#f6f3ec" stroke-width="2.5"/>
+  <path d="M125.7 51.6 C152 60 168 84 176 108" fill="none" stroke="#f6f3ec" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- the pour: key plate only, ballistic arc with steepening deltas -->
+  <g font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="23" fill="#f6f3ec" text-anchor="middle">
+    <text transform="translate(188 122) rotate(34)">A</text>
+    <text transform="translate(203 138) rotate(40)">L</text>
+    <text transform="translate(216 156) rotate(46)">C</text>
+    <text transform="translate(227 176) rotate(52)">H</text>
+    <text transform="translate(236 197) rotate(58)">E</text>
+    <text transform="translate(243 219) rotate(63)">M</text>
+    <text transform="translate(248 242) rotate(68)">Y</text>
+  </g>
+
+  <!-- one fraction declines; nothing touches it -->
+  <circle cx="259" cy="275" r="5.5" fill="#c8401a"/>
+
+  <!-- deadpan plate note -->
+  <text x="34" y="289" font-family="IBM Plex Mono, Menlo, monospace" font-size="6" letter-spacing="1" fill="#f6f3ec" opacity="0.55">3 PLATES IN · 1 PLATE OUT</text>
+</svg>
+      <figcaption><b>R4.2.1 — SEPARATION PROOF</b><br>Separation proof, dark colorway. Three color plates go into the flask — cobalt, ochre, vermilion — held in register by a single paper key plate: wall, meniscus, spout, seven letters on a ballistic arc. The overprints are precomputed flat tones, a printer's fake of translucency that predates process color. The vermilion plate slips 2.5 px at the meniscus, threads out under the spout, and quits. Everything distills to paper. One fraction declines.</figcaption>
+    </figure>
+  </div>
+
+  <h2 class="kicker">G <b>· Round 5 — The five-needle round</b></h2>
+  <p class="sec-note">Source: a client-supplied engraving — FIG. 355, Wheatstone's five-needle
+  telegraph — and everything it represents. The history was verified before anything was drawn.
+  The instrument selected letters by <em>convergence</em>: two needles commit, and the letter
+  stands at their crossing — the same trick the basal ganglia pull. Its twenty-letter board
+  shipped without C, J, Q, U, X, Z, and the world's first telegraph arrest went through anyway,
+  because the reader's cortex, steered by context, supplied what the wire could not. The gap
+  has been the point since 1837. R5.1 is presented as a candidate <strong>fifth state of the
+  mark itself</strong>; the needles select N.</p>
+
+  <div class="figgrid">
+    <figure class="fig">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f6f3ec"/>
+  <defs>
+    <clipPath id="board"><path d="M150 30 L270 150 L150 270 L30 150 Z"/></clipPath>
+  </defs>
+  <!-- registration ticks: all four length 8, standoff 4 from the r=120 circle -->
+  <g stroke="#16130e" stroke-width="1.5">
+    <line x1="150" y1="18" x2="150" y2="26"/>
+    <line x1="150" y1="274" x2="150" y2="282"/>
+    <line x1="274" y1="150" x2="282" y2="150"/>
+    <line x1="18" y1="150" x2="26" y2="150"/>
+  </g>
+  <circle cx="150" cy="150" r="120" fill="none" stroke="#16130e" stroke-width="2.25"/>
+  <g clip-path="url(#board)" stroke="#d9d2c2" stroke-width="0.75">
+    <line x1="30" y1="110" x2="270" y2="350"/>
+    <line x1="30" y1="70" x2="270" y2="310"/>
+    <line x1="30" y1="30" x2="270" y2="270"/>
+    <line x1="30" y1="-10" x2="270" y2="230"/>
+    <line x1="30" y1="-50" x2="270" y2="190"/>
+    <line x1="-50" y1="270" x2="190" y2="30"/>
+    <line x1="-10" y1="270" x2="230" y2="30"/>
+    <line x1="30" y1="270" x2="270" y2="30"/>
+    <line x1="70" y1="270" x2="310" y2="30"/>
+    <line x1="110" y1="270" x2="350" y2="30"/>
+    <line x1="30" y1="150" x2="270" y2="150"/>
+  </g>
+  <path d="M150 30 L270 150 L150 270 L30 150 Z" fill="none" stroke="#16130e" stroke-width="2.25"/>
+  <!-- 19 unselected lattice crossings; (170,90)=D restored, (130,170)=N vacated for the letter -->
+  <g fill="#16130e">
+    <circle cx="90" cy="130" r="1.3"/><circle cx="130" cy="130" r="1.3"/><circle cx="170" cy="130" r="1.3"/><circle cx="210" cy="130" r="1.3"/>
+    <circle cx="110" cy="110" r="1.3"/><circle cx="150" cy="110" r="1.3"/><circle cx="190" cy="110" r="1.3"/>
+    <circle cx="130" cy="90" r="1.3"/><circle cx="170" cy="90" r="1.3"/><circle cx="150" cy="70" r="1.3"/>
+    <circle cx="90" cy="170" r="1.3"/><circle cx="170" cy="170" r="1.3"/><circle cx="210" cy="170" r="1.3"/>
+    <circle cx="110" cy="190" r="1.3"/><circle cx="150" cy="190" r="1.3"/><circle cx="190" cy="190" r="1.3"/>
+    <circle cx="130" cy="210" r="1.3"/><circle cx="170" cy="210" r="1.3"/><circle cx="150" cy="230" r="1.3"/>
+  </g>
+  <circle cx="150" cy="150" r="13" fill="#c8401a"/>
+  <!-- resting needles, pivots 1/4/5: base 4.8, half-length 24 -->
+  <g fill="#16130e">
+    <path d="M70 126 L72.4 150 L70 174 L67.6 150 Z"/>
+    <path d="M190 126 L192.4 150 L190 174 L187.6 150 Z"/>
+    <path d="M230 126 L232.4 150 L230 174 L227.6 150 Z"/>
+  </g>
+  <!-- active needles, pivots 2+3, thrown 45 deg, converging downward on N (130,170);
+       tips stop 4.284 from the crossing, tails stop 4.284 from the H and K crossings -->
+  <g fill="#1f3a93">
+    <path d="M126.97 166.97 L108.3 151.7 L93.03 133.03 L111.7 148.3 Z"/>
+    <path d="M133.03 166.97 L148.3 148.3 L166.97 133.03 L151.7 151.7 Z"/>
+  </g>
+  <g fill="#f6f3ec" stroke="#16130e" stroke-width="0.75">
+    <circle cx="70" cy="150" r="3.5"/><circle cx="110" cy="150" r="3.5"/>
+    <circle cx="190" cy="150" r="3.5"/><circle cx="230" cy="150" r="3.5"/>
+  </g>
+  <circle cx="150" cy="150" r="1.8" fill="#f6f3ec"/>
+  <!-- close-selection letter: glyph hung below its crossing, baseline = lattice y + 12,
+       cap top clears both needle tips by 4.4 -->
+  <text x="130" y="182" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="15" fill="#c8401a">N</text>
+</svg>
+      <figcaption><b>R5.1 — THE INSTRUMENT (FIFTH STATE)</b><br>Cooke and Wheatstone's five-needle telegraph, patented June 1837 and in service on the Great Western Railway between Paddington and West Drayton by 1839, spelled with no code to learn: two of five needles threw 45 degrees and the letter stood where their lines crossed. Twenty letters fit the board; C, J, Q, U, X and Z did not. Here pivots two and three throw downward and cross one row below the axis, at N — the nearest selection the instrument can make. Nineteen crossings wait.</figcaption>
+    </figure>
+    <figure class="fig">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="dm"><path d="M150,48 240,138 150,228 60,138Z"/></clipPath>
+  </defs>
+  <rect width="300" height="300" fill="#f6f3ec"/>
+  <text x="18" y="25" font-family="'IBM Plex Mono', Menlo, monospace" font-size="8" letter-spacing="1" fill="#16130e">FIG. R5.2</text>
+  <text x="282" y="25" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="8" letter-spacing="1" fill="#16130e">C(5,2) &#215; 2 = 20</text>
+  <g clip-path="url(#dm)" stroke="#16130e" stroke-width="0.35">
+    <line x1="-10" y1="238" x2="190" y2="38"/>
+    <line x1="20" y1="238" x2="220" y2="38"/>
+    <line x1="50" y1="238" x2="250" y2="38"/>
+    <line x1="80" y1="238" x2="280" y2="38"/>
+    <line x1="110" y1="238" x2="310" y2="38"/>
+    <line x1="-10" y1="38" x2="190" y2="238"/>
+    <line x1="20" y1="38" x2="220" y2="238"/>
+    <line x1="50" y1="38" x2="250" y2="238"/>
+    <line x1="80" y1="38" x2="280" y2="238"/>
+    <line x1="110" y1="38" x2="310" y2="238"/>
+  </g>
+  <line x1="60" y1="138" x2="240" y2="138" stroke="#d9d2c2" stroke-width="1.2"/>
+  <path d="M150,48 240,138 150,228 60,138Z" fill="none" stroke="#16130e" stroke-width="1.5"/>
+  <g stroke="#16130e" stroke-width="1">
+    <line x1="150" y1="34" x2="150" y2="42"/>
+    <line x1="246" y1="138" x2="254" y2="138"/>
+    <line x1="150" y1="234" x2="150" y2="242"/>
+    <line x1="46" y1="138" x2="54" y2="138"/>
+  </g>
+  <line x1="104.14" y1="123.86" x2="137.98" y2="90.02" stroke="#1f3a93" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <line x1="195.86" y1="123.86" x2="162.02" y2="90.02" stroke="#1f3a93" stroke-width="0.9" stroke-dasharray="3 3"/>
+  <g font-family="'IBM Plex Mono', Menlo, monospace" font-size="8.5" fill="#16130e" text-anchor="middle">
+    <text x="135" y="96">B</text><text x="165" y="96">D</text>
+    <text x="120" y="111">E</text><text x="150" y="111">F</text><text x="180" y="111">G</text>
+    <text x="105" y="126">H</text><text x="135" y="126">I</text><text x="165" y="126">K</text><text x="195" y="126">L</text>
+    <text x="105" y="156">M</text><text x="135" y="156">N</text><text x="165" y="156">O</text><text x="195" y="156">P</text>
+    <text x="120" y="171">R</text><text x="150" y="171">S</text><text x="180" y="171">T</text>
+    <text x="135" y="186">V</text><text x="165" y="186">W</text>
+    <text x="150" y="201">Y</text>
+  </g>
+  <circle cx="120" cy="138" r="3.5" fill="#f6f3ec" stroke="#16130e" stroke-width="1"/>
+  <circle cx="180" cy="138" r="3.5" fill="#f6f3ec" stroke="#16130e" stroke-width="1"/>
+  <circle cx="90" cy="138" r="3.5" fill="#f6f3ec" stroke="#1f3a93" stroke-width="1"/>
+  <circle cx="210" cy="138" r="3.5" fill="#f6f3ec" stroke="#1f3a93" stroke-width="1"/>
+  <circle cx="150" cy="138" r="5" fill="#c8401a"/>
+  <g fill="#f6f3ec" stroke="#16130e" stroke-width="0.9">
+    <path transform="translate(120,138)" d="M0,-16 2.8,0 0,16 -2.8,0Z"/>
+    <path transform="translate(150,138)" d="M0,-16 2.8,0 0,16 -2.8,0Z"/>
+    <path transform="translate(180,138)" d="M0,-16 2.8,0 0,16 -2.8,0Z"/>
+  </g>
+  <path transform="translate(90,138) rotate(45)" d="M0,-16 2.8,0 0,16 -2.8,0Z" fill="#1f3a93"/>
+  <path transform="translate(210,138) rotate(-45)" d="M0,-16 2.8,0 0,16 -2.8,0Z" fill="#1f3a93"/>
+  <circle cx="90" cy="138" r="1.2" fill="#f6f3ec"/>
+  <circle cx="210" cy="138" r="1.2" fill="#f6f3ec"/>
+  <circle cx="150" cy="78" r="9" fill="#c8401a"/>
+  <text x="150" y="82" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="11" fill="#f6f3ec">A</text>
+  <text x="150" y="262" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="14" letter-spacing="3" fill="#16130e">THE SELECTION</text>
+  <text x="150" y="277" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="6.5" letter-spacing="1" fill="#16130e">TWO NEEDLES COMMIT &#183; THE CROSSING IS THE CHOICE</text>
+</svg>
+      <figcaption><b>R5.2 — THE SELECTION</b><br>Cooke and Wheatstone's five-needle telegraph, patented 1837 and run on the Great Western line by 1839, spelled without a code: two needles commit, and the letter stands where their sightlines cross. Five pivots give C(5,2) = 10 pairs; two deflections each give the board its twenty letters — C, J, Q, U, X, Z omitted. A is the board's apex letter, the crossing of the outermost pair. Needle throw exaggerated to 45 degrees to lie on the lattice; the alphabetical layout is a reconstruction. Selection is not a search. It is a crossing.</figcaption>
+    </figure>
+    <figure class="fig">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- R5.3 KWAKER — corrected per judge5.json Candidate-3 notes:
+       (1) textLength stretch removed (KWAKER set at natural width, 247.4 <= 256 even under Helvetica Bold fallback);
+       (2) caption raised from 5px to 6px, split to verified line lengths (max 202.5 <= 256);
+       (3) microcopy added severing the false U-was-unsendable-in-1845 inference — claims only what
+           the Science Museum attests (message RECEIVED on the two-needle instrument; its code omitted
+           only J, Q, Z). Sender-side instrument left unstated per research5.json uncertain list.
+           The W stays unexplained, per judge directive;
+       (4) ghost polarity corrected: in the received word the Q is the ghost (rule #d9d2c2),
+           UAKER solid ink — the reader's cortex supplies the Q. Vermilion moves to KW in the
+           sent word: the letters the operator committed in place of QU.
+       Type outlining deferred to production (brand faces not present on this machine). -->
+  <rect width="300" height="300" fill="#f6f3ec"/>
+  <g stroke="#16130e" stroke-width="0.75">
+    <line x1="150" y1="7" x2="150" y2="13"/>
+    <line x1="150" y1="291" x2="150" y2="297"/>
+    <line x1="7" y1="150" x2="13" y2="150"/>
+    <line x1="287" y1="150" x2="293" y2="150"/>
+  </g>
+  <text x="22" y="31" font-family="'IBM Plex Mono', Menlo, monospace" font-size="7" letter-spacing="1.5" fill="#16130e">TRANSMISSION No. 5 — R5.3</text>
+  <text x="278" y="31" text-anchor="end" font-family="'IBM Plex Mono', Menlo, monospace" font-size="7" letter-spacing="1.5" fill="#16130e">1 JAN 1845</text>
+  <line x1="22" y1="40" x2="278" y2="40" stroke="#d9d2c2" stroke-width="0.75"/>
+
+  <!-- SENT: natural width, no stretch. KW vermilion = the committed substitution. -->
+  <text x="150" y="139" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-weight="800" font-size="55" fill="#16130e"><tspan fill="#c8401a">KW</tspan><tspan>AKER</tspan></text>
+
+  <!-- The line L: the channel, thinner than everything it connects. -->
+  <line x1="45" y1="157" x2="255" y2="157" stroke="#16130e" stroke-width="0.4"/>
+  <text x="250" y="153" text-anchor="end" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="8" fill="#16130e">L</text>
+
+  <!-- READ: the Q is the ghost — the reader's cortex supplies it. UAKER solid. -->
+  <text x="150" y="193" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="34" fill="#16130e"><tspan fill="#d9d2c2">Q</tspan><tspan>UAKER</tspan></text>
+
+  <!-- The void set of the 1837 five-needle board. -->
+  <g stroke="#c8401a" stroke-width="0.9" fill="none">
+    <circle cx="50" cy="224" r="11"/>
+    <circle cx="90" cy="224" r="11"/>
+    <circle cx="130" cy="224" r="11"/>
+    <circle cx="170" cy="224" r="11"/>
+    <circle cx="210" cy="224" r="11"/>
+    <circle cx="250" cy="224" r="11"/>
+  </g>
+  <g font-family="'IBM Plex Mono', Menlo, monospace" font-size="10" fill="#d9d2c2" text-anchor="middle">
+    <text x="50" y="227.5">C</text>
+    <text x="90" y="227.5">J</text>
+    <text x="130" y="227.5">Q</text>
+    <text x="170" y="227.5">U</text>
+    <text x="210" y="227.5">X</text>
+    <text x="250" y="227.5">Z</text>
+  </g>
+  <g font-family="'IBM Plex Mono', Menlo, monospace" font-size="6" letter-spacing="0.3" fill="#16130e" text-anchor="middle">
+    <text x="150" y="244">THE FIVE-NEEDLE BOARD (1837) HELD TWENTY LETTERS.</text>
+    <text x="150" y="251.5">THESE ARE THE OTHER SIX.</text>
+    <text x="150" y="259">THE 1845 MESSAGE ARRIVED ON A TWO-NEEDLE INSTRUMENT,</text>
+    <text x="150" y="266.5">ITS CODE OMITTED ONLY J, Q AND Z.</text>
+  </g>
+
+  <line x1="22" y1="271" x2="278" y2="271" stroke="#d9d2c2" stroke-width="0.75"/>
+  <text x="150" y="278" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="6" letter-spacing="0.5" fill="#16130e">SENT: KWAKER — READ: QUAKER — SLOUGH TO PADDINGTON</text>
+  <text x="150" y="286" text-anchor="middle" font-family="'IBM Plex Mono', Menlo, monospace" font-size="6" letter-spacing="0.5" fill="#16130e">THE INSTRUMENT HAD NO Q. THE READER DID.</text>
+</svg>
+      <figcaption><b>R5.3 — KWAKER</b><br>On 1 January 1845 a description of a suspect was telegraphed up the Great Western line from Slough to Paddington with the word spelled K-W-A-K-E-R; the instrument had no Q. The five-needle board of 1837 held twenty letters — C, J, Q, U, X and Z were the other six — and the 1845 message arrived on the line's later two-needle instrument, whose code omitted only J, Q and Z. The reader supplied the Q.</figcaption>
+    </figure>
+    <figure class="fig">
+      <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="300" fill="#f6f3ec"/>
+
+  <!-- wire-bundle sweeps (fascicle rhyme, rule color, hairline) -->
+  <g stroke="#d9d2c2" stroke-width="0.8" fill="none">
+    <path d="M38,181 C26,205 22,228 30,250"/>
+    <path d="M52,188 C40,212 38,232 44,250"/>
+    <path d="M57,190 C53,214 52,232 56,250"/>
+    <path d="M262,181 C274,205 278,228 270,250"/>
+    <path d="M248,188 C260,212 262,232 256,250"/>
+    <path d="M243,190 C247,214 248,232 244,250"/>
+  </g>
+  <g stroke="#16130e" stroke-width="0.8" fill="none">
+    <circle cx="30" cy="253" r="2.5"/>
+    <circle cx="44" cy="253" r="2.5"/>
+    <circle cx="56" cy="253" r="2.5"/>
+    <circle cx="270" cy="253" r="2.5"/>
+    <circle cx="256" cy="253" r="2.5"/>
+    <circle cx="244" cy="253" r="2.5"/>
+  </g>
+
+  <!-- STATION I : squared circle, exact inscriptions (ink marks) -->
+  <g fill="none" stroke="#16130e">
+    <circle cx="62" cy="150" r="40" stroke-width="1.5"/>
+    <polygon points="62,110 27.36,170 96.64,170" stroke-width="1"/>
+    <rect x="47.86" y="135.86" width="28.28" height="28.28" stroke-width="1"/>
+    <path d="M62,101 V107 M62,193 V199 M13,150 H19 M105,150 H111" stroke-width="1"/>
+  </g>
+  <circle cx="62" cy="150" r="14.14" fill="#c8401a"/>
+
+  <!-- STATION II : identical construction -->
+  <g fill="none" stroke="#16130e">
+    <circle cx="238" cy="150" r="40" stroke-width="1.5"/>
+    <polygon points="238,110 203.36,170 272.64,170" stroke-width="1"/>
+    <rect x="223.86" y="135.86" width="28.28" height="28.28" stroke-width="1"/>
+    <path d="M238,101 V107 M238,193 V199 M189,150 H195 M281,150 H287" stroke-width="1"/>
+  </g>
+  <circle cx="238" cy="150" r="14.14" fill="#c8401a"/>
+
+  <!-- the line L : catenary parabola y = 118 + 120*t*(1-t), x = 96 + 108t.
+       Wire trimmed to the terminal-ring perimeters (r=1.8 about the ring centers):
+       intersection at t = 0.011218 -> (97.21,119.33) and mirror (202.79,119.33);
+       control point (150,176.67) = tangent intersection, so the sub-arc traces the
+       SAME parabola exactly (midpoint check: (150,148.0) = parabola at t=0.5).
+       Cleft gap holds at BOTH ends: ring edge sits ~4.9 units clear of each station circle. -->
+  <path d="M97.21,119.33 Q150,176.67 202.79,119.33" fill="none" stroke="#1f3a93" stroke-width="0.9"/>
+  <circle cx="96" cy="118" r="1.8" fill="none" stroke="#1f3a93" stroke-width="0.9"/>
+  <circle cx="204" cy="118" r="1.8" fill="none" stroke="#1f3a93" stroke-width="0.9"/>
+
+  <!-- the drop, in transit past mid-span : PLAIN CIRCLE (house rule).
+       SPEC CONSTANT — DROP_OFFSET_X = +13 units right of mid-span: x = 150 + 13 = 163.
+       Apex sits on the wire's true curve: y(163) = 146.26; r = 3.5 -> center (163,149.76).
+       Touches the wire only; touches no station (nearest station center 101+ units away). -->
+  <circle cx="163" cy="149.76" r="3.5" fill="#c8401a"/>
+
+  <!-- label -->
+  <text x="128" y="139" font-family="Newsreader, Georgia, serif" font-style="italic" font-size="12" fill="#16130e">L</text>
+
+  <!-- footer -->
+  <line x1="24" y1="262" x2="276" y2="262" stroke="#d9d2c2" stroke-width="0.8"/>
+  <text x="150" y="277" text-anchor="middle" font-family="'IBM Plex Mono', monospace" font-size="8" letter-spacing="2" fill="#16130e">R5.4 — TWO STATIONS.</text>
+</svg>
+      <figcaption><b>R5.4 — TWO STATIONS</b><br>Two identical constructions, one line between them. In July 1837, on the London & Birmingham Railway between Euston and Camden Town, a needle instrument at one station moved because a hand moved at the other; the sources disagree on how many needles, so the drawing declines to say. The line touches neither station. The signal is drawn in transit, thirteen units past mid-span, still on the wire and nowhere else.</figcaption>
     </figure>
   </div>
 </main>
