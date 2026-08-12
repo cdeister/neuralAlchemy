@@ -73,6 +73,10 @@ header { border-bottom: 1px solid var(--ink); }
 
 .wordmark svg { width: 20px; height: 20px; display: block; }
 
+.slash { color: var(--accent); }
+
+.person-role.informal { text-transform: none; letter-spacing: 0.04em; }
+
 nav.site {
   font-family: var(--mono);
   font-size: 0.8rem;
